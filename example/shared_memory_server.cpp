@@ -1,6 +1,6 @@
 
 #include "win32_shared_memory.h"
-#include "command_line_args.h"
+//#include "command_line_args.h"
 #include <iostream>
 
 using namespace visdebug;
@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
         return 1;
     }
 
-	CommandLineArgs args(argc, argv);
+	//CommandLineArgs args(argc, argv);
 	
 	Win32SharedMemory shmem;
 	//only the server initializes the shared memory!
