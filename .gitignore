@@ -389,3 +389,5 @@ dist
 *.vcxproj.*
 *.sln
 out/
+
+/build
