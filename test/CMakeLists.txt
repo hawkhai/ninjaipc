@@ -22,3 +22,6 @@ foreach(test_file ${TEST_FILES})
     add_executable(${test_name} ${test_file})
     add_test(NAME ${test_name} COMMAND ${test_name})
 endforeach()
+
+add_executable(test_client test_client.cpp)
+add_executable(test_serv test_serv.cpp)
