@@ -1,5 +1,6 @@
 /* Server */
 #include <ninjaipc.h>
+#include <iostream>
 
 using namespace NinjaIPC;
 

@@ -46,6 +46,9 @@ extern "C" {
 #include <stdlib.h>
 #include <stdio.h>
 #include <memory.h>
+#ifdef __cplusplus
+//#include <memory>
+#endif
 
 /* Shared error codes */
 typedef enum {
@@ -744,6 +747,9 @@ nj_ipc_channel_free(nj_ipc_channel *ch) {
 
 #ifdef __cplusplus
 }
+#endif
+
+#ifdef __cplusplus
 /* High-Level C++ API */
 #include <string>
 #include <mutex>
