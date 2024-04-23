@@ -392,3 +392,4 @@ out/
 
 /build
 test/cmake-build-debug
+test/build
